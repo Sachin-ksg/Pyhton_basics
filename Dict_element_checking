@@ -1,0 +1,3 @@
+lang = {"java": 1, "python": 2, "c": 3}
+if "python" in lang:
+        print("python is available")
