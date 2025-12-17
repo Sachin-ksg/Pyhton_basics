@@ -1,0 +1,5 @@
+lang = {"java": 1, "python": 2, "c": 3}
+y={}
+for key,values in lang.items():
+    y[values]=key
+print(y)
