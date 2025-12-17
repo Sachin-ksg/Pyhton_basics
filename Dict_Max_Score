@@ -1,0 +1,6 @@
+scores = {"Asha": 88, "Ravi": 92, "Kiran": 85}
+max_score=0
+for key in scores:
+    if scores[key]>max_score:
+        max_score=scores[key]
+print(max_score)
