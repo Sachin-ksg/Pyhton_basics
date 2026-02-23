@@ -1,0 +1,10 @@
+lis=[]
+for num in range(5):
+    num=int(input ("Enter a number to list:"))
+    lis.append(num)
+print(lis)
+max_num=0
+for i in range(len(lis)):
+       if lis[i]>max_num:
+         max_num=lis[i]
+print(max_num)
