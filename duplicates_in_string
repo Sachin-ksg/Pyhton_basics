@@ -1,0 +1,6 @@
+s=input("Enter a string:")
+dup=[]
+for i in s:
+    if s.count(i)>1 and i not in dup:
+      dup.append(i)
+print(dup)
