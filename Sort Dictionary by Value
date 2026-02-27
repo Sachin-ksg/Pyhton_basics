@@ -1,0 +1,14 @@
+d = {"a":3, "b":1, "c":2}
+
+sorted_dict = {}
+
+# Get sorted values
+sorted_values = sorted(d.values())
+
+# Match values with keys
+for value in sorted_values:
+    for key in d:
+        if d[key] == value and key not in sorted_dict:
+            sorted_dict[key] = value
+
+print(sorted_dict)
