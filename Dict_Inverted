@@ -1,0 +1,8 @@
+d = {"a":1, "b":2, "c":1}
+
+inverted = {}
+
+for key, value in d.items():
+    inverted.setdefault(value, []).append(key)
+
+print(inverted)
