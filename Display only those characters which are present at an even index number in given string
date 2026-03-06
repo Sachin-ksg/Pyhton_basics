@@ -1,0 +1,7 @@
+s="Sachin Kornengattil"
+dict={}
+for i in range(len(s)):
+    print(s[i],i)
+    if i%2==0:
+        dict[i]=s[i]
+print(dict)
