@@ -1,0 +1,10 @@
+s = "learning python is fun!"
+vowels="aeiou"
+c={}
+for i in s:
+    if i in vowels:
+        if i in c:
+           c[i]+=1
+        else:
+            c[i]=1
+print(c)
