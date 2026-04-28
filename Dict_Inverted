@@ -1,8 +1,7 @@
-d = {"a":1, "b":2, "c":1}
+d1 = {"a":"Apple", "b": "Tomato", "c":"Cucumber", "d":"Avocado"}
+d2 = {}
 
-inverted = {}
+for i in d1:
+    d2[d1[i]] = i
 
-for key, value in d.items():
-    inverted.setdefault(value, []).append(key)
-
-print(inverted)
+print(d2)
