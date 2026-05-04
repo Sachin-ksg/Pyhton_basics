@@ -1,10 +1,12 @@
 words = ["apple", "bat", "car", "elephant", "dog"]
-d={}
+d = {}
 
 for i in words:
-    length=len(i)
+    length = len(i)
+
     if length not in d:
-        d[length]=[]
-        
-    d[length].append(i)
+        d[length] = [i]
+    else:
+        d[length].append(i)
+
 print(d)
