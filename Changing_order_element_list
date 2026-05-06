@@ -1,0 +1,17 @@
+lst = [0, 11, 0, 3, 12]
+
+result = []
+
+# Add non-zero elements
+for num in lst:
+    if num != 0:
+        result.append(num)
+
+# Count zeros
+zero_count = len(lst) - len(result)
+
+# Add zeros at the end
+for i in range(zero_count):
+    result.append(0)
+
+print(result)
