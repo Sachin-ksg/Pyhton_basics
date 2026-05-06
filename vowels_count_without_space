@@ -1,12 +1,13 @@
-def count_vowels(s):
-    vowels = "aeiouAEIOU"
-    count = 0
+s="Good Morning Bangalore"
 
-    for ch in s:
-        if ch != " " and ch in vowels:
-            count += 1
+vowels="AEIOUaeiou"
+vcount=0
+ccount=0
 
-    return count
-
-
-print(count_vowels("hello world python"))
+for i in s:
+    if i in vowels and i!=" ":
+        vcount+=1
+    elif i not in vowels and i!=" ":
+        ccount+=1
+print(vcount)
+print(ccount)
