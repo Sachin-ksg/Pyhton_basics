@@ -1,0 +1,7 @@
+text = input("Enter string: ")
+old = input("Enter letter to replace: ")
+new = input("Enter new letter: ")
+
+result = text.replace(old, new)
+
+print("New string:", result)
